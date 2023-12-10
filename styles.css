@@ -1,0 +1,93 @@
+body {
+  background-color: #e3eff9;
+}
+
+.Aboutme {
+  position: absolute;
+  border: 5px outset #17252A;
+  background-color: #bcc8d2;
+  width: 100%;
+  max-width: 230px;
+  height: 100vh;
+  z-index: 2;
+}
+
+.Aboutme img {
+  border-radius: 50%;
+  border: 5px outset #17252A;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+
+.Name {
+  position: absolute;
+  left: 400px;
+  z-index: 1;
+  color: #17252A;
+  border: 5px dotted #17252A;
+  width: calc(100% - 250px);
+  max-width: 100vh;
+  font-family: Georgia;
+  text-align: center;
+
+}
+
+.info {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  color: #17252A;
+}
+
+p.tut {
+  font-weight: bold;
+}
+
+.head {
+  display: inline;
+  margin-right: 10px;
+}
+
+.educ {
+  font-size: 24px;
+  background-color: #BAD0E7;
+  border: #93a0c6;
+}
+
+.edu {
+  display: none;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+.schul {
+  margin-right: 70px;
+}
+
+.educ:hover {
+  background-color: #93a0c6;
+}
+
+.info ul {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .Aboutme,
+  .Name,
+  .info {
+    position: static;
+    width: 100%;
+    max-width: none;
+    left: auto;
+    top: auto;
+    margin-bottom: 20px;
+  }
+
+  .Name {
+    width: 100%;
+  }
+}
