@@ -7,7 +7,7 @@ body {
   border: 5px outset #17252A;
   background-color: #bcc8d2;
   width: 100%;
-  max-width: 230px;
+  max-width: 250px;
   height: 100vh;
   z-index: 2;
 }
